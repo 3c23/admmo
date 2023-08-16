@@ -6,7 +6,7 @@ This repository contains the data and source code for the work "Adapting Multi-o
 
 ## Data Result
 
-The dataset of this work can be accessed via the Zenodo link [here](https://zenodo.org/record/6522292). The zip file contains all the raw data as reported in the paper; most of the structures are self-explained but we wish to highlight the following:
+The dataset of this work can be accessed via the Zenodo link [here](https://zenodo.org/record/8252954). The zip file contains all the raw data as reported in the paper; most of the structures are self-explained but we wish to highlight the following:
 
 * The data under the folder `1.0-0.0` and `0.0-1.0` are for the single-objective optimizers, including IRACE, GA, RS, ParamILS, FLASH, BOCA, and SMAC. The former uses the first objective as the target performance objective while the latter uses the second objective as the target.
 
@@ -16,7 +16,7 @@ The dataset of this work can be accessed via the Zenodo link [here](https://zeno
 
   * The data under the folder `0.0` are for AdMMO (30% proportion).
   * The data under the folder `1.0` are for MMO.
-  * The result under the folder `0.0-x`, where x is a certain number are for AdMMO under x% of the proportion.
+  * The result under the folder `0.0-x`, where x is a certain number for AdMMO under x% of the proportion.
   * The data under the folder `0.0-wotrigger` are for the variant of AdMMO that does not use a progressive trigger.
   * The data under the folder `0.0-wodup` are for the variant of AdMMO that does not have duplicate handling.
 
