@@ -1,5 +1,5 @@
-# Supplementary materials for paper Adapting Multi-objectivization for Configuration Tuning
-This repository contains the data and source code for the paper "Adapting Multi-objectivization for Configuration Tuning"
+# Supplementary materials for paper Adapting Multi-objectivized Software Configuration Tuning
+This repository contains the data and source code for the work "Adapting Multi-objectivized Software Configuration Tuning"
 
 
 
