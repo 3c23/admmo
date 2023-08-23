@@ -6,7 +6,7 @@ This repository contains the data and source code for the work "Adapting Multi-o
 
 ## Data Result
 
-The dataset of this work can be accessed via the Zenodo link [here](https://zenodo.org/record/8252954). The zip file contains all the raw data as reported in the paper; most of the structures are self-explained but we wish to highlight the following:
+The dataset of this work can be accessed via the Zenodo link [here](https://zenodo.org/record/8252997). The zip file contains all the raw data as reported in the paper; most of the structures are self-explained but we wish to highlight the following:
 
 * The data under the folder `1.0-0.0` and `0.0-1.0` are for the single-objective optimizers, including IRACE, GA, RS, ParamILS, FLASH, BOCA, and SMAC. The former uses the first objective as the target performance objective while the latter uses the second objective as the target.
 
@@ -34,7 +34,7 @@ The [`code`](https://github.com/3c23/admmo/tree/main/code) folder contains all t
 Running the code requires a few steps depending on the RQs. For all those steps, both the jars files in the `library` folders need to be imported and compiled together. There are a few variables that need to change in the `AutoRun.java` class (which is the main class to run the experiments):
 
 * The variable `weights` indicates which is the target performance objective for the single objective optimizer, 1.0-0.0 means the first objective while 0.0-1.0 means the second objective.
-* The variable `single_algs` controls which single objective optimizer to run: irace, ga, or rs.
+* The variable `single_algs` controls which single objective optimizer to run: irace, ga, paramils, or rs.
 * The variable `benchmark` describes which system to run, currently, it can take the following values:
   * mariadb
   * storm
